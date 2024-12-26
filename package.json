@@ -1,0 +1,57 @@
+{
+  "name": "pk-game",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "/game",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "rxjs": "5.5.9",
+    "socket.io": "2.2.0",
+    "mockjs": "^1.1.0",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "upload": "node deploy.js",
+    "deploy": "npm run build && npm run upload",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://111.229.117.16:9000",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "chalk": "^4.1.0",
+    "node-sass": "^4.14.1",
+    "ora": "^5.4.0",
+    "react-app-rewired": "^2.1.8",
+    "react-scripts": "4.0.1",
+    "scp2": "^0.5.0"
+  },
+  "description": "game",
+  "main": "index.js",
+  "repository": "https://e.coding.net/dingss/pkgame/pkgame-web.git",
+  "license": "MIT"
+}
