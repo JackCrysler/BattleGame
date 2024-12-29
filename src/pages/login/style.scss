@@ -1,0 +1,60 @@
+.login {
+    .page-title {
+        height: 70px;
+    }
+    form {
+        width: 100%;
+        padding: 0 30px 0 50px;
+    }
+    .flex-column {
+        width: 100%;
+    }
+
+    .form-item {
+        width: 100%;
+        margin: 10px 0;
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+        line-height: 55px;
+    }
+
+    input {
+        height: 40px;
+        width: 220px;
+        outline: none;
+        color: #fff;
+        font-size: 17px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        width: 100%;
+        font-family: sans-serif;
+        padding: 2px 5px;
+        border: 0;
+        background-color: transparent;
+        line-height: 1;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        border-bottom: 1px solid #fff;
+    }
+
+    input:-internal-autofill-selected {
+        background-color: transparent !important;
+    }
+
+    .button {
+        width: 170px;
+        margin: 50px 0 0;
+    }
+    .go-register {
+        font-size: 12px;
+        font-weight: normal;
+        color: rgba($color: #bbb, $alpha: 0.8);
+        text-shadow: none;
+        line-height: 2.4;
+    }
+    .generate-random-name-button {
+        font-size: 14px;
+    }
+}

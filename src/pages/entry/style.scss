@@ -1,0 +1,176 @@
+.entry {
+    width: 100%;
+    height: 100%;
+    user-select: none;
+    /* background-color: rgb(161, 215, 180); */
+    
+    position: relative;
+
+    .player-info {
+        p {
+            margin-bottom: 10px;
+        }
+        .player-avatar {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        .player-avatar-input {
+            visibility: hidden;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            height: 0px;
+            width: 0px;
+        }
+        .player-avatar-img {
+            width: 100px;
+            height: 100px;
+            line-height: 30px;
+            border: 1px solid;
+            flex-direction: column;
+            
+        }
+        .avatar-img {
+            display: block;
+            width: 100px;
+            height: 100px;
+        }
+    }
+    
+    .upload-text {
+        text-shadow: none;
+        font-size: 12px;
+        font-weight: normal;
+    }
+
+    .start-anim {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #fff;
+    }
+
+    .illustration {
+      font-size: 12px;
+      line-height: 1.8;
+      color: #eee;
+      height: 20vh;
+      padding: 0 30px;
+      font-weight: normal;
+    }
+
+    .start-area {
+        height: 30vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    a.start-button {
+        width: 170px;
+        background-color: rgb(253, 179, 9);
+        border: 1px solid #000;
+        text-shadow: rgba(253, 179, 9, 0.5);
+    }
+
+    .match-modal {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(39, 46, 109, 0.5);
+        z-index: 100;
+    }
+
+    .modal-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 330px;
+        height: 490px;
+        transform: translate3d(-50%, -50%, 0);
+        background-color: rgb(110, 136, 255);
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    .match-box {
+        width: 100%;
+        height: 370px;
+        border-radius: 10px;
+        background-color: rgba(39, 46, 109, 1);
+        color: #fff;
+        text-align: center;
+        line-height: 2;
+        padding: 30px;
+    }
+
+    a.cancel-button {
+        width: 170px;
+        height: 55px;
+        line-height: 53px;
+        margin: 20px auto;
+        background-color: rgb(252, 49, 87);
+        border: 1px solid #000;
+        border-radius: 10px;
+    }
+
+    a.disable-button {
+        opacity: 0.5;
+    }
+
+    .show {
+        display: block;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    @keyframes dots-1 {
+        from {
+            opacity: 0
+        }
+
+        25% {
+            opacity: 1
+        }
+    }
+
+    @keyframes dots-2 {
+        from {
+            opacity: 0
+        }
+
+        50% {
+            opacity: 1
+        }
+    }
+
+    @keyframes dots-3 {
+        from {
+            opacity: 0
+        }
+
+        75% {
+            opacity: 1
+        }
+    }
+
+    .dot {
+        animation: dots-1 2s infinite steps(1);
+    }
+
+    .dot2 {
+        animation-name: dots-2;
+    }
+
+    .dot3 {
+        animation-name: dots-3;
+    }
+
+}

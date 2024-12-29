@@ -1,0 +1,36 @@
+.learnmore-page {
+    text-align: left;
+    .technology-stack {
+        font-size: 18px;
+    }
+    .technology-statement {
+        width: 100%;
+        padding: 10px;
+        line-height: 1.5;
+        text-shadow: none;
+        color: #000;
+        font-weight: normal;
+        font-size: 16px;
+    }
+    .technology-statement {
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        .technology-statement-item {
+            margin-bottom: 40px;
+            display: flex;
+            flex-direction: column;
+        }
+        .technology-statement-item-title {
+            flex-shrink: 0;
+        }
+        .technology-statement-item-content {
+            margin-top: 10px;
+            text-indent: 24px;
+        }
+    }
+    .go-back {
+        text-align: center;
+        line-height: 100px;
+    }
+}

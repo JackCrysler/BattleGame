@@ -1,0 +1,31 @@
+.page {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+.button {
+    display: inline-block;
+    padding: 0 15px;
+    outline: 0;
+    -webkit-appearance: none;
+    text-align: center;
+    font-size: 18px;
+    height: 47px;
+    line-height: 45px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    white-space: nowrap;
+    color: #fff;
+    background-color: #108ee9;
+    border: 1px solid #108ee9;
+    border-radius: 5px;
+}
+
+.ellipse-text {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  
+}

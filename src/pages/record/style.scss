@@ -1,0 +1,25 @@
+.record-page {
+    .record-item{
+        padding: 2px 12px;
+        word-break: break-all;
+        display: flex;
+        justify-content: space-around;
+    }
+    .record-item-title {
+        width: 30%;
+        flex-shrink: 0;
+    }
+    .record-item-content {
+        width: 70%;
+    }
+    
+    .user-avatar {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+    }
+    .go-back {
+        line-height: 100px;
+        text-align: center;
+    }
+}
